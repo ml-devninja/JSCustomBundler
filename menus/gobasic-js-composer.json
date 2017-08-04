@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle gobasic-js-composer",
+        "command": "gobasic-js-composer:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "gobasic-js-composer",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "gobasic-js-composer:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

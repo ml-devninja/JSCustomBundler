@@ -1,0 +1,19 @@
+{
+  "name": "gobasic-js-composer",
+  "main": "./lib/gobasic-js-composer",
+  "version": "0.1.0",
+  "description": "Combine JS files in specyfic configurable way",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "gobasic-js-composer:toggle"
+  },
+  "repository": "",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "filehound": "^1.16.1",
+    "lodash": "^4.17.4"
+  }
+}
